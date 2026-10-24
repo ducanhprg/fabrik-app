@@ -1,70 +1,72 @@
 # Spotter
 
-Spotter watches your 3D printers on your own network: live status and camera on a dashboard,
-alerts with a photo to your Telegram (or email) when a print starts, finishes, fails or gets stuck,
-and controls (pause, resume, cancel, temperatures, light). Everything runs on your PC; nothing goes
-through a cloud.
+*[English](README.en.md)*
 
-Works with **Snapmaker U1** and other **Klipper / Moonraker** printers, and **Bambu Lab** printers in
-LAN mode. Windows only for now.
+Spotter theo dõi máy in 3D trong mạng nhà bạn: trạng thái và camera trực tiếp trên một trang web,
+gửi thông báo kèm ảnh qua Telegram (hoặc email) khi bản in bắt đầu, in xong, bị lỗi hoặc bị kẹt,
+và cho phép điều khiển (tạm dừng, tiếp tục, hủy, nhiệt độ, đèn). Mọi thứ chạy trên máy tính của bạn,
+không qua dịch vụ đám mây nào.
 
-## Install
+Dùng được với **Snapmaker U1** và các máy **Klipper / Moonraker** khác, và máy **Bambu Lab** ở chế độ LAN.
+Hiện chỉ chạy trên Windows. Giao diện mặc định là tiếng Việt (nút **English** ở góc trên bên phải để đổi).
 
-1. Download **`Spotter-<version>-windows.zip`** from the newest release under
-   [Releases](../../releases/latest) and unzip it into a folder of its own (for example `Documents\Spotter`).
-   Not Program Files: Spotter updates itself in its folder.
-2. Double-click **`spotter.exe`**. Windows may say "Windows protected your PC": click
-   **More info → Run anyway**. Allow it on the firewall prompt if you want to open the dashboard from
-   your phone.
-3. The dashboard opens in your browser (<http://localhost:8484>). Keep the black window open: closing it
-   stops Spotter.
-4. Click **Scan network** and add your printers.
-   - **Bambu Lab:** turn on **LAN only** mode and **developer mode** on the printer, and type its
-     **access code** (printer screen, network settings) when you add it. Keep `ffmpeg.exe` beside
-     `spotter.exe`: the Bambu camera needs it.
+## Cài đặt
 
-The settings live in the `data` folder next to `spotter.exe` (your Telegram token and printer access
-codes are in there: don't share that folder).
+1. Tải **`Spotter-<phiên bản>-windows.zip`** ở bản mới nhất trong mục [Releases](../../releases/latest),
+   rồi giải nén vào một thư mục riêng (ví dụ `Documents\Spotter`). Đừng để trong Program Files:
+   Spotter tự cập nhật ngay trong thư mục của nó.
+2. Nhấp đúp **`spotter.exe`**. Nếu Windows báo "Windows protected your PC", bấm
+   **More info → Run anyway**. Khi tường lửa hỏi, hãy cho phép nếu bạn muốn mở trang Spotter từ điện thoại.
+3. Trang Spotter tự mở trong trình duyệt (<http://localhost:8484>). Giữ cửa sổ màu đen mở:
+   đóng nó là Spotter dừng.
+4. Bấm **Quét mạng** và thêm máy in của bạn.
+   - **Bambu Lab:** bật chế độ **LAN only** và **developer mode** trên máy in, rồi nhập **mã truy cập**
+     (access code, xem trong phần cài đặt mạng trên màn hình máy in) khi thêm máy. Giữ `ffmpeg.exe` cạnh
+     `spotter.exe`: camera của Bambu cần nó.
 
-## Telegram alerts
+Cài đặt được lưu trong thư mục `data` cạnh `spotter.exe` (trong đó có token Telegram và mã truy cập máy in:
+đừng chia sẻ thư mục này).
 
-Click **Set up Telegram** on the bar at the top of the dashboard (or **Notifications**) and follow its four steps:
+## Thông báo qua Telegram
 
-1. **Make a bot:** in Telegram, message [@BotFather](https://t.me/BotFather), send `/newbot`, give it a name, and
-   paste the token it sends you. Spotter shows the bot's name when the token is right.
-2. **Choose where alerts go:** just you, a group (your family or print buddies), or a channel. **Open Telegram**
-   takes you to the right place: press Start in the bot, or pick the group or channel to add the bot to.
-3. **Find chats** and pick the one you want.
-4. **Send test message**; when it arrives, click **Save**.
+Bấm **Cài đặt Telegram** trên thanh ở đầu trang (hoặc nút **Thông báo**) và làm theo bốn bước:
 
-The bot token works like a password: don't share it.
+1. **Tạo bot:** trong Telegram, nhắn cho [@BotFather](https://t.me/BotFather), gửi `/newbot`, đặt tên cho bot,
+   rồi dán token mà nó gửi cho bạn. Spotter hiện tên bot khi token đúng.
+2. **Chọn nơi nhận thông báo:** chỉ mình bạn, một nhóm (gia đình hoặc bạn bè cùng in), hoặc một kênh.
+   **Mở Telegram** đưa bạn đến đúng chỗ: bấm Start trong bot, hoặc chọn nhóm hay kênh để thêm bot vào.
+3. Bấm **Tìm** và chọn cuộc trò chuyện bạn muốn.
+4. **Gửi tin nhắn thử**; khi tin nhắn đến, bấm **Lưu**.
 
-## Updates
+Token của bot giống như mật khẩu: đừng chia sẻ nó.
 
-Spotter checks for a new version once a day (switch it off in the version button, top right). When
-one is out, the dashboard shows a bar and your alert channel gets one message. Click **What's new**, then
-**Install**: Spotter downloads it, checks it is a genuine release (it is signed), and restarts itself.
-Install waits while a print is running. **Check now** in the same place checks straight away.
+## Cập nhật
 
-## Start with Windows (optional)
+Spotter kiểm tra phiên bản mới mỗi ngày một lần (tắt được trong nút phiên bản ở góc trên bên phải).
+Khi có bản mới, trang Spotter hiện một thanh thông báo và bạn nhận một tin nhắn. Bấm **Có gì mới**, rồi
+**Cài đặt**: Spotter tải về, kiểm tra đúng là bản phát hành thật (có chữ ký), rồi tự khởi động lại.
+Khi máy đang in, việc cài đặt sẽ chờ in xong. **Kiểm tra ngay** ở cùng chỗ để kiểm tra luôn.
 
-To have Spotter run in the background from boot, without the window: open a terminal **as
-Administrator** in Spotter's folder and run
+## Chạy cùng Windows (không bắt buộc)
+
+Để Spotter chạy nền từ lúc bật máy, không cần cửa sổ: mở terminal **bằng quyền Administrator** trong
+thư mục của Spotter và chạy
 
 ```
 .\spotter.exe install
 ```
 
-Then the dashboard is always at <http://localhost:8484>. `.\spotter.exe uninstall` undoes it (your
-settings stay). Updates work the same way.
+Sau đó trang Spotter luôn ở <http://localhost:8484>. `.\spotter.exe uninstall` để gỡ (cài đặt của bạn vẫn còn).
+Cập nhật vẫn hoạt động như cũ.
 
-## If something is wrong
+## Khi gặp trục trặc
 
-- **No printers found:** the PC and the printers must be on the same network. If they are on another
-  subnet (for example the printer is on Wi-Fi and the PC on cable), add it under Notifications → extra
-  subnets, or add the printer by its IP address.
-- **No alerts:** a VPN can block Telegram; try with the VPN off. **Send test** in Notifications shows the error.
-- **"Is Spotter already running?":** it is: another window or the service already has it running. The
-  dashboard opens anyway.
+- **Không tìm thấy máy in:** máy tính và máy in phải cùng một mạng. Nếu khác mạng con (ví dụ máy in dùng
+  Wi-Fi còn máy tính cắm dây), thêm mạng con đó trong Thông báo → mạng con cần quét thêm, hoặc thêm máy in
+  bằng địa chỉ IP.
+- **Không nhận được thông báo:** VPN có thể chặn Telegram; thử tắt VPN. **Gửi thử** trong Thông báo sẽ cho
+  biết lỗi.
+- **"Is Spotter already running?":** Spotter đang chạy rồi (ở cửa sổ khác hoặc chạy nền). Trang Spotter vẫn
+  được mở.
 
-`FFMPEG.txt` in the zip says which ffmpeg build is included and where its source is.
+`FFMPEG.txt` trong file zip cho biết bản ffmpeg đi kèm và nơi có mã nguồn của nó.
