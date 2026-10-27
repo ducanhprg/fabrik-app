@@ -75,8 +75,9 @@ mở trong cửa sổ của nó trên máy tính.
 
 Fabrik kiểm tra phiên bản mới mỗi ngày một lần (tắt được bằng nút phiên bản ở cuối trang chủ Fabrik). Khi
 có bản mới, trang chủ hiện một thanh thông báo và bạn nhận một tin nhắn. Bấm **Có gì mới**, rồi **Cài đặt**: Fabrik
-tải về, kiểm tra đúng là bản phát hành thật (có chữ ký), rồi tự khởi động lại. Khi máy đang in, việc cài đặt sẽ
-chờ in xong. **Kiểm tra ngay** ở cùng chỗ để kiểm tra luôn.
+tải về, kiểm tra đúng là bản phát hành thật (có chữ ký), rồi tự khởi động lại. Cài khi máy đang in cũng được: máy
+vẫn in tiếp, vài giây sau Spotter lại theo dõi. **Kiểm tra ngay** ở cùng chỗ để kiểm tra luôn.
+Mọi thay đổi có trong [CHANGELOG.md](CHANGELOG.md).
 
 ## Gặp lỗi? Hãy báo
 

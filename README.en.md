@@ -74,8 +74,9 @@ Fabrik opens only in its window on the PC.
 
 Fabrik checks for a new version once a day (switch it off with the version button at the bottom of Fabrik's start page). When one is
 out, the start page shows a bar and your alert channel gets one message. Click **What's new**, then **Install**: Fabrik
-downloads it, checks it is a genuine release (it is signed), and restarts itself. Install waits while a print is
-running. **Check now** in the same place checks straight away.
+downloads it, checks it is a genuine release (it is signed), and restarts itself. Installing during a print is fine: the
+printer carries on, and Spotter is back watching it a few seconds later. **Check now** in the same place checks straight away.
+Every change is listed in [CHANGELOG.md](CHANGELOG.md).
 
 ## Something wrong? Report it
 
