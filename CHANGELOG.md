@@ -1,14 +1,13 @@
+<!-- One change per bullet, on one line: English, then the Vietnamese on the next line. The release workflow sends a version's section to Discord as it is. -->
 # What's new in Fabrik · Có gì mới
 
-Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.
+Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
 ## 1.0.1-nightly.1 (test build · bản thử)
 
-- Splitter: the region colours in the parts preview (By limbs, By colour) now show clean regions on big models (over
-  700,000 triangles), instead of stripes all over the model.
-  Splitter: màu các vùng khi xem trước (Theo tay chân, Theo màu) giờ hiện đúng từng vùng trên mẫu lớn (trên 700.000
-  tam giác), không còn bị sọc lốm đốm khắp mẫu.
+- Splitter: the region colours in the parts preview (By limbs, By colour) now show clean regions on big models (over 700,000 triangles), instead of stripes all over the model.
+  Splitter: màu các vùng khi xem trước (Theo tay chân, Theo màu) giờ hiện đúng từng vùng trên mẫu lớn (trên 700.000 tam giác), không còn bị sọc lốm đốm khắp mẫu.
 - Updates install while a print is running: the printer carries on, and Spotter is back watching it a few seconds later.
   Cài bản cập nhật được cả khi máy đang in: máy vẫn in tiếp, vài giây sau Spotter lại theo dõi.
 - The start page no longer has the Open all button.
