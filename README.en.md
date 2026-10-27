@@ -14,6 +14,14 @@ Fabrik is a 3D printing workshop in one window on your PC:
 Spotter works with **Snapmaker U1** and other **Klipper / Moonraker** printers, and **Bambu Lab** printers in LAN
 mode. Windows 10 and 11. Spotter speaks Vietnamese unless switched to English (top right).
 
+<img src="images/start-en.png" alt="Fabrik's start page">
+
+| Maker: a click toy from the sample egg | Splitter: what to do with a model |
+|---|---|
+| <img src="images/maker-en.png" alt="Maker: a click toy from the sample egg"> | <img src="images/splitter-en.png" alt="Splitter: what to do with a model"> |
+| **Bracer: support fins on the sample** | **Spotter: three printers, live** |
+| <img src="images/bracer-en.png" alt="Bracer: support fins on the sample"> | <img src="images/spotter-en.png" alt="Spotter: three printers, live"> |
+
 ## Install
 
 1. Download **`Fabrik-<version>-windows.zip`** from the newest release under

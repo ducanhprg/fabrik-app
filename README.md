@@ -14,6 +14,14 @@ Fabrik là một xưởng in 3D trong một cửa sổ trên máy tính của b�
 Spotter dùng được với **Snapmaker U1** và các máy **Klipper / Moonraker** khác, và máy **Bambu Lab** ở chế độ LAN.
 Chạy trên Windows 10 và 11. Spotter mặc định là tiếng Việt (nút **English** ở góc trên bên phải để đổi).
 
+<img src="images/start-vi.png" alt="Trang đầu của Fabrik">
+
+| Maker: đồ bấm từ quả trứng mẫu | Splitter: chọn cách chia mẫu |
+|---|---|
+| <img src="images/maker-vi.png" alt="Maker: đồ bấm từ quả trứng mẫu"> | <img src="images/splitter-vi.png" alt="Splitter: chọn cách chia mẫu"> |
+| **Bracer: vây đỡ trên mẫu có sẵn** | **Spotter: ba máy in, trực tiếp** |
+| <img src="images/bracer-vi.png" alt="Bracer: vây đỡ trên mẫu có sẵn"> | <img src="images/spotter-vi.png" alt="Spotter: ba máy in, trực tiếp"> |
+
 ## Cài đặt
 
 1. Tải **`Fabrik-<phiên bản>-windows.zip`** ở bản mới nhất trong mục [Releases](../../releases/latest), rồi giải
