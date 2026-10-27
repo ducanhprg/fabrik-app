@@ -4,6 +4,27 @@
 Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.3.0
+
+- Splitter's cut tools all work the same way: 1 mark the cut, 2 adjust it, 3 Cut, with one Cut button; a card on top of the view says what to do next.
+  Các công cụ cắt của Splitter giờ dùng chung một cách: 1 đánh dấu vết cắt, 2 chỉnh lại, 3 Cắt, với một nút Cắt duy nhất; một thẻ trên khung nhìn cho biết bước tiếp theo.
+- Splitter: the Cut menu is Line, Loop, Paint, Curve, Add pins and Review. Curved & drafts is gone: Curve draws a curved cut you can still edit, Review holds cuts waiting to be built.
+  Splitter: menu Cắt gồm Đường thẳng, Vòng, Tô vùng, Cắt cong, Thêm chốt và Xem lại. Bỏ Cắt cong & bản nháp: Cắt cong vẽ vết cắt cong vẫn sửa được, Xem lại giữ các vết cắt đang chờ dựng.
+- Splitter, Add pins: cut without a pin, then click each cut face to put a pin there, any joint, with its size and length.
+  Splitter, Thêm chốt: cắt không chốt, rồi bấm vào từng mặt cắt để đặt chốt ở đó, kiểu khớp nào cũng được, chỉnh cỡ và độ dài.
+- Splitter: a Magnet joint makes a hole in each part for a bought disc magnet, 4x3 to 25x5 mm, so it sits flush.
+  Splitter: khớp Nam châm khoét lỗ ở mỗi phần vừa nam châm tròn mua sẵn, từ 4x3 đến 25x5 mm, để nam châm nằm ngang mặt.
+- Splitter: undo a cut and what you drew (line, loop, paint, shape or curve) comes back, ready to change and cut again.
+  Splitter: hoàn tác một vết cắt thì những gì bạn đã vẽ (đường, vòng, vùng tô, hình hoặc đường cong) quay lại, sẵn sàng sửa và cắt lại.
+- Splitter: Spread, beside the 3D view, pulls the parts apart to look at the cut faces and pins, and puts them back.
+  Splitter: nút Tách ra cạnh khung 3D kéo các phần ra xa để xem mặt cắt và chốt, rồi ghép lại.
+- Splitter, Paint: opens with the brush on, and when the painted part still touches the rest (a skirt frill on a leg) it marks the spot in red and says what to do.
+  Splitter, Tô vùng: mở là bật cọ ngay, và khi phần đã tô còn chạm phần còn lại (diềm váy chạm chân) thì đánh dấu đỏ chỗ chạm và nói cách xử lý.
+- Splitter, Loop: drag any point straight away, only that point moves, and the line runs where the points are. A loop that cannot part the model is no longer cut out as a patch on its own.
+  Splitter, Vòng: kéo điểm nào cũng được ngay, chỉ điểm đó di chuyển, và đường cắt đi đúng qua các điểm. Vòng không tách được mẫu không còn tự bị khoét thành mảng.
+- Fabrik's window no longer reacts to browser keys such as Ctrl+F, Ctrl+R and F5.
+  Cửa sổ Fabrik không còn phản hồi các phím của trình duyệt như Ctrl+F, Ctrl+R và F5.
+
 ## 1.2.0
 
 - Splitter has a new layout: all cut tools in one column on the left, Draw a cut (Line, Ring, Paint, Curved) and Auto split (Body parts, Fit the bed, Grid, By colour), and the model stays clear on a 1280 x 640 screen.
