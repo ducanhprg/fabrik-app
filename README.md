@@ -65,8 +65,8 @@ mở trong cửa sổ của nó trên máy tính.
 
 ## Cập nhật
 
-Fabrik kiểm tra phiên bản mới mỗi ngày một lần (tắt được bằng nút phiên bản của Spotter ở góc trên bên phải). Khi
-có bản mới, Spotter hiện một thanh thông báo và bạn nhận một tin nhắn. Bấm **Có gì mới**, rồi **Cài đặt**: Fabrik
+Fabrik kiểm tra phiên bản mới mỗi ngày một lần (tắt được bằng nút phiên bản ở cuối trang chủ Fabrik). Khi
+có bản mới, trang chủ hiện một thanh thông báo và bạn nhận một tin nhắn. Bấm **Có gì mới**, rồi **Cài đặt**: Fabrik
 tải về, kiểm tra đúng là bản phát hành thật (có chữ ký), rồi tự khởi động lại. Khi máy đang in, việc cài đặt sẽ
 chờ in xong. **Kiểm tra ngay** ở cùng chỗ để kiểm tra luôn.
 
@@ -76,6 +76,11 @@ Bấm nút **lá cờ** ở đầu bất kỳ trang nào. Fabrik gom những gì
 đặt, ảnh chụp cửa sổ, nhật ký của Spotter; không có thông tin bí mật) và lưu vào thư mục Tải về, hỏi trước có gửi
 kèm mô hình bạn đang làm không. Rồi gửi tệp đó cho Derek qua Telegram, Zalo hoặc email như cửa sổ hướng dẫn, và
 kể lại chuyện gì đã xảy ra.
+
+Bạn cũng có thể hỏi trên Discord của mình: [tham gia tại đây](https://discord.gg/9CnBKcXFpR), rồi dùng [hỗ trợ](https://discord.gg/WTEMXyuCCH) khi gặp lỗi và
+[ý tưởng và góp ý](https://discord.gg/DSAaTC7TqB) cho những gì bạn muốn có tiếp theo.
+
+Fabrik miễn phí. Nếu thấy hữu ích, bạn có thể [ủng hộ trên Ko-fi](https://ko-fi.com/dereknguyen).
 
 ## Khi gặp trục trặc
 

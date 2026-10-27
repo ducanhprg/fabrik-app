@@ -64,8 +64,8 @@ Fabrik opens only in its window on the PC.
 
 ## Updates
 
-Fabrik checks for a new version once a day (switch it off with Spotter's version button, top right). When one is
-out, Spotter shows a bar and your alert channel gets one message. Click **What's new**, then **Install**: Fabrik
+Fabrik checks for a new version once a day (switch it off with the version button at the bottom of Fabrik's start page). When one is
+out, the start page shows a bar and your alert channel gets one message. Click **What's new**, then **Install**: Fabrik
 downloads it, checks it is a genuine release (it is signed), and restarts itself. Install waits while a print is
 running. **Check now** in the same place checks straight away.
 
@@ -75,6 +75,11 @@ Press the **flag** button at the top of any page. Fabrik puts what is needed to 
 (what went wrong on the page, the settings, a picture of the window, Spotter's log; nothing secret) and saves it
 in your Downloads, asking first whether to add the model you were working on. Then send that file to Derek by
 Telegram, Zalo or email, as the window shows, and say what happened.
+
+You can also ask on our Discord: [join here](https://discord.gg/9CnBKcXFpR), then use [help and support](https://discord.gg/WTEMXyuCCH) for problems and
+[ideas and feedback](https://discord.gg/DSAaTC7TqB) for what you would like next.
+
+Fabrik is free. If it helps you, you can [support it on Ko-fi](https://ko-fi.com/dereknguyen).
 
 ## If something is wrong
 
