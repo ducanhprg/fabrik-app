@@ -4,6 +4,23 @@
 Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.3.1
+
+- Splitter checks a model as it opens: if it is not a closed solid, a card says what is wrong and Repair it now fixes it; a cut that fails on a faulty model offers the repair and cuts again.
+  Splitter kiểm tra mẫu ngay khi mở: nếu không phải khối kín, một thẻ cho biết lỗi và nút Sửa ngay sẽ sửa; vết cắt thất bại trên mẫu lỗi sẽ đề nghị sửa rồi cắt lại.
+- Splitter: a heavy model is offered Reduce for cutting (Light, Balanced, Strong), so it cuts and paints faster; Undo brings full detail back.
+  Splitter: mẫu nặng được đề nghị Giảm để cắt (Nhẹ, Cân bằng, Mạnh) để cắt và tô nhanh hơn; Hoàn tác đưa lại đầy đủ chi tiết.
+- Splitter: a model saved in metres or inches gets a card to scale it, and cuts no longer fail on it with a puzzling message.
+  Splitter: mẫu lưu theo mét hoặc inch có thẻ để chỉnh tỉ lệ, và không còn cắt lỗi với thông báo khó hiểu.
+- Splitter: cuts run in the background with a card showing what is happening and for how long; Stop ends a cut, and the page no longer freezes.
+  Splitter: việc cắt chạy nền với thẻ cho biết đang làm gì và bao lâu; nút Dừng kết thúc vết cắt, trang không còn bị đơ.
+- Splitter: the left mouse button is always the tool; right-drag turns the view, middle-drag pans, the wheel zooms.
+  Splitter: chuột trái luôn dành cho công cụ; kéo chuột phải để xoay, kéo chuột giữa để dời, con lăn để phóng to thu nhỏ.
+- Splitter, Loop: drag the loop itself and it eases into place; dragged spots are pinned, right-click releases a pin, and Snap to edges pulls it into the nearest crease.
+  Splitter, Vòng: kéo chính vòng cắt và nó giãn mềm vào chỗ; chỗ đã kéo được ghim, chuột phải để thả ghim, và Bám vào cạnh kéo vòng vào nếp gấp gần nhất.
+- Splitter: Ctrl+Z undoes the last thing you did, a stray line included, and Ctrl+Shift+Z puts it back; Cut and Auto split open on their tools with none started.
+  Splitter: Ctrl+Z hoàn tác việc vừa làm, kể cả đường cắt vẽ nhầm, và Ctrl+Shift+Z làm lại; Cắt và Tự chia mở ra danh sách công cụ, chưa bật công cụ nào.
+
 ## 1.3.0
 
 - Splitter's cut tools all work the same way: 1 mark the cut, 2 adjust it, 3 Cut, with one Cut button; a card on top of the view says what to do next.
