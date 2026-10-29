@@ -4,6 +4,23 @@
 Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.0
+
+- Splitter, Pins: the pin goes where you click, and a placed pin can be moved, made bigger or smaller, and given an exact radius and reach in mm; a magnet can be any size.
+  Splitter, Chốt: chốt nằm đúng chỗ bạn bấm, chốt đã đặt có thể dời, làm to nhỏ và đặt bán kính, độ ăn sâu chính xác theo mm; nam châm có thể có cỡ bất kỳ.
+- Splitter, Pins: new outlines (hexagon, square, tapered square, star, cross), loose Tenons with those outlines, and 1 to 12 pins on a face.
+  Splitter, Chốt: thêm các hình dạng mới (lục giác, vuông, vuông côn, sao, chữ thập), chốt rời Tenon có các hình đó, và từ 1 đến 12 chốt trên một mặt.
+- Splitter, Plane: start from X, Y, Z or the view, set Position and Angle, Swap the halves, and pick which separate areas a plane cuts.
+  Splitter, Mặt phẳng: bắt đầu từ trục X, Y, Z hoặc hướng nhìn, đặt Vị trí và Góc, Đổi hai nửa, và chọn vùng riêng nào mặt phẳng sẽ cắt.
+- Splitter, Draw: a stroke carries on across views from its loose end and closes when it comes back to its start.
+  Splitter, Vẽ: nét vẽ tiếp tục qua nhiều góc nhìn từ đầu nét còn lơ lửng và khép lại khi quay về điểm đầu.
+- Splitter: after a cut, carry on cutting one part (the others are set aside but kept for export), and Joint numbers cut the same number into both faces of every joint.
+  Splitter: sau khi cắt, cắt tiếp một phần (các phần khác để sang bên nhưng vẫn được xuất), và Số mối ghép khắc cùng một số vào cả hai mặt của mỗi mối ghép.
+- Splitter: a Mask for every cut tool (paint a part, hide the rest; the cut still uses the whole model), and Inspect & repair with Advanced repair and Separate the loose pieces.
+  Splitter: Mặt nạ cho mọi công cụ cắt (tô một phần, ẩn phần còn lại; vết cắt vẫn dùng cả mẫu), và Kiểm tra & sửa với Sửa nâng cao và Tách các mảnh rời.
+- Splitter: new tools Shapes & Boolean (cube, ball, tube, cone, ring; union, difference, intersect), Sculpt (smooth, flatten, inflate, deflate) and Moulds (a printable silicone mould box with lid, pour hole and air vents, or a jacket).
+  Splitter: công cụ mới Hình khối & Boolean (lập phương, cầu, ống, nón, vòng; hợp, hiệu, giao), Điêu khắc (làm mịn, làm phẳng, phồng, xẹp) và Khuôn (hộp khuôn silicone in được có nắp, lỗ rót và lỗ thoát khí, hoặc khuôn áo).
+
 ## 1.3.1
 
 - Splitter checks a model as it opens: if it is not a closed solid, a card says what is wrong and Repair it now fixes it; a cut that fails on a faulty model offers the repair and cuts again.
