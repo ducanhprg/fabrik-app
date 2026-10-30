@@ -1,19 +1,35 @@
 <!-- One change per bullet, on one line: English, then the Vietnamese on the next line. The release workflow sends a version's section to Discord as it is. -->
 # What's new in Fabrik · Có gì mới
 
-Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
-Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
+Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
+Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
-## 1.4.1-nightly.1 (test build · bản thử)
+## 1.4.1-beta.1 (test build · bản thử)
 
 - Splitter, By colour: a new Show colour cuts button draws where each colour edge would be cut, with thick outlined lines; edges that cannot be cut are drawn in red with the reason.
   Splitter, Theo màu: nút Hiện vết cắt theo màu mới vẽ chỗ mỗi biên màu sẽ bị cắt bằng nét dày có viền; biên không cắt được vẽ màu đỏ kèm lý do.
+- Splitter, Colours: a new Snap colour edges to grooves button moves each colour edge you drew into the nearest groove or crease of the surface, so colours change where the model does.
+  Splitter, Màu: nút Kéo biên màu vào rãnh mới đưa mỗi biên màu bạn vẽ vào rãnh hoặc nếp gần nhất của bề mặt, để màu đổi đúng chỗ mẫu đổi.
 - Splitter, Draw: a loop that cannot part the model no longer leaves a spinner running that cannot be stopped; the warning stays in the notes with its Cut out as a patch button.
   Splitter, Vẽ: vòng cắt không tách được mẫu không còn để lại vòng xoay chạy mãi không dừng được; cảnh báo nằm trong thông báo cùng nút Cắt thành miếng vá.
 - Splitter, Cut: a check after every cut says whether each part is a closed solid, whether the parts hold the volume of the model, and how close the parts come to each other (the cut gap), and warns when something is wrong. On a model of a million triangles it runs after the result is on screen.
   Splitter, Cắt: sau mỗi lần cắt có bước kiểm tra xem từng phần có kín không, tổng thể tích các phần có đủ không và các phần cách nhau bao nhiêu (khe cắt), và cảnh báo khi có gì không ổn. Với mẫu cả triệu tam giác, bước này chạy sau khi kết quả đã hiện.
 - Splitter, Loop: a ring that leaves a thin lid, cap or brim (under about 0.6 mm) is no longer refused as "does not separate".
   Splitter, Vòng: vòng cắt để lại nắp, chóp hoặc vành mỏng (dưới khoảng 0,6 mm) không còn bị từ chối với thông báo "không tách được".
+- Splitter: a cut that fails now says why in plain words and what to do: the cut misses the model, stops on it, stays inside it, runs too close to the surface, the gap takes all of one side, a loop has too few points or crosses itself.
+  Splitter: vết cắt thất bại giờ nói rõ lý do và cách xử lý: vết cắt lệch khỏi mẫu, dừng trên mẫu, nằm trọn bên trong, đi quá sát bề mặt, khe cắt ăn hết một bên, vòng có quá ít điểm hoặc tự cắt qua chính nó.
+- Splitter: when a cut leaves the model in one piece, a red line on the model shows the place that still holds it together.
+  Splitter: khi vết cắt chưa tách được mẫu, một đường đỏ trên mẫu chỉ ra chỗ còn giữ hai bên dính lại.
+- Splitter: a model made of separate closed pieces no longer gets a card saying it will not cut; one line says what is ready before you cut.
+  Splitter: mẫu gồm nhiều mảnh kín rời nhau không còn bị báo là không cắt được; một dòng cho biết mẫu đã sẵn sàng trước khi cắt.
+- Splitter, Export 3MF: every part is checked as the slicer will read it first; a wall too thin for the file's numbers is written with more digits, and a part that cannot be written is stopped with the reason.
+  Splitter, Xuất 3MF: mỗi phần được kiểm tra trước theo cách slicer sẽ đọc; thành quá mỏng so với độ chính xác của tệp sẽ được ghi nhiều chữ số hơn, phần không ghi được sẽ bị dừng kèm lý do.
+- Splitter: Hollow, Add peg, Grid, Base and Fit the bed work again on a model that needs a repair first (they stopped with a meaningless error); a failed Hollow or Auto Finish now really leaves everything as it was.
+  Splitter: Làm rỗng, Thêm chốt, Lưới, Đế và Cho vừa bàn in lại chạy được với mẫu cần sửa trước (trước đây dừng với lỗi vô nghĩa); Làm rỗng hoặc Hoàn thiện tự động thất bại giờ thật sự giữ nguyên mọi thứ.
+- Splitter: a loose fragment folded back into a part no longer touches the part beside it, which could weld the two together in the print.
+  Splitter: mảnh rời được gộp lại vào một phần không còn chạm phần bên cạnh, điều có thể làm hai phần dính nhau khi in.
+- Splitter: the check after a cut now runs after every kind of cut, knows a press fit from a fault, and says when pieces already overlapped before the cut.
+  Splitter: bước kiểm tra sau khi cắt giờ chạy sau mọi kiểu cắt, phân biệt được khớp ép với lỗi, và cho biết khi các mảnh đã chồng lên nhau từ trước khi cắt.
 - Reports: the report now says which part went wrong (the tool in use is chosen for you), takes pictures pasted with Ctrl+V, and carries Splitter's last messages and state; every Splitter error ends with a short code you can quote.
   Báo lỗi: báo lỗi giờ cho chọn chức năng bị lỗi (chọn sẵn công cụ đang dùng), nhận ảnh dán bằng Ctrl+V, và kèm các thông báo cùng trạng thái gần nhất của Splitter; mỗi lỗi của Splitter có một mã ngắn để bạn đọc cho mình.
 
@@ -21,12 +37,28 @@ Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau 
 
 - Splitter, By colour: a new Show colour cuts button draws where each colour edge would be cut, with thick outlined lines; edges that cannot be cut are drawn in red with the reason.
   Splitter, Theo màu: nút Hiện vết cắt theo màu mới vẽ chỗ mỗi biên màu sẽ bị cắt bằng nét dày có viền; biên không cắt được vẽ màu đỏ kèm lý do.
+- Splitter, Colours: a new Snap colour edges to grooves button moves each colour edge you drew into the nearest groove or crease of the surface, so colours change where the model does.
+  Splitter, Màu: nút Kéo biên màu vào rãnh mới đưa mỗi biên màu bạn vẽ vào rãnh hoặc nếp gần nhất của bề mặt, để màu đổi đúng chỗ mẫu đổi.
 - Splitter, Draw: a loop that cannot part the model no longer leaves a spinner running that cannot be stopped; the warning stays in the notes with its Cut out as a patch button.
   Splitter, Vẽ: vòng cắt không tách được mẫu không còn để lại vòng xoay chạy mãi không dừng được; cảnh báo nằm trong thông báo cùng nút Cắt thành miếng vá.
 - Splitter, Cut: a check after every cut says whether each part is a closed solid, whether the parts hold the volume of the model, and how close the parts come to each other (the cut gap), and warns when something is wrong. On a model of a million triangles it runs after the result is on screen.
   Splitter, Cắt: sau mỗi lần cắt có bước kiểm tra xem từng phần có kín không, tổng thể tích các phần có đủ không và các phần cách nhau bao nhiêu (khe cắt), và cảnh báo khi có gì không ổn. Với mẫu cả triệu tam giác, bước này chạy sau khi kết quả đã hiện.
 - Splitter, Loop: a ring that leaves a thin lid, cap or brim (under about 0.6 mm) is no longer refused as "does not separate".
   Splitter, Vòng: vòng cắt để lại nắp, chóp hoặc vành mỏng (dưới khoảng 0,6 mm) không còn bị từ chối với thông báo "không tách được".
+- Splitter: a cut that fails now says why in plain words and what to do: the cut misses the model, stops on it, stays inside it, runs too close to the surface, the gap takes all of one side, a loop has too few points or crosses itself.
+  Splitter: vết cắt thất bại giờ nói rõ lý do và cách xử lý: vết cắt lệch khỏi mẫu, dừng trên mẫu, nằm trọn bên trong, đi quá sát bề mặt, khe cắt ăn hết một bên, vòng có quá ít điểm hoặc tự cắt qua chính nó.
+- Splitter: when a cut leaves the model in one piece, a red line on the model shows the place that still holds it together.
+  Splitter: khi vết cắt chưa tách được mẫu, một đường đỏ trên mẫu chỉ ra chỗ còn giữ hai bên dính lại.
+- Splitter: a model made of separate closed pieces no longer gets a card saying it will not cut; one line says what is ready before you cut.
+  Splitter: mẫu gồm nhiều mảnh kín rời nhau không còn bị báo là không cắt được; một dòng cho biết mẫu đã sẵn sàng trước khi cắt.
+- Splitter, Export 3MF: every part is checked as the slicer will read it first; a wall too thin for the file's numbers is written with more digits, and a part that cannot be written is stopped with the reason.
+  Splitter, Xuất 3MF: mỗi phần được kiểm tra trước theo cách slicer sẽ đọc; thành quá mỏng so với độ chính xác của tệp sẽ được ghi nhiều chữ số hơn, phần không ghi được sẽ bị dừng kèm lý do.
+- Splitter: Hollow, Add peg, Grid, Base and Fit the bed work again on a model that needs a repair first (they stopped with a meaningless error); a failed Hollow or Auto Finish now really leaves everything as it was.
+  Splitter: Làm rỗng, Thêm chốt, Lưới, Đế và Cho vừa bàn in lại chạy được với mẫu cần sửa trước (trước đây dừng với lỗi vô nghĩa); Làm rỗng hoặc Hoàn thiện tự động thất bại giờ thật sự giữ nguyên mọi thứ.
+- Splitter: a loose fragment folded back into a part no longer touches the part beside it, which could weld the two together in the print.
+  Splitter: mảnh rời được gộp lại vào một phần không còn chạm phần bên cạnh, điều có thể làm hai phần dính nhau khi in.
+- Splitter: the check after a cut now runs after every kind of cut, knows a press fit from a fault, and says when pieces already overlapped before the cut.
+  Splitter: bước kiểm tra sau khi cắt giờ chạy sau mọi kiểu cắt, phân biệt được khớp ép với lỗi, và cho biết khi các mảnh đã chồng lên nhau từ trước khi cắt.
 - Reports: the report now says which part went wrong (the tool in use is chosen for you), takes pictures pasted with Ctrl+V, and carries Splitter's last messages and state; every Splitter error ends with a short code you can quote.
   Báo lỗi: báo lỗi giờ cho chọn chức năng bị lỗi (chọn sẵn công cụ đang dùng), nhận ảnh dán bằng Ctrl+V, và kèm các thông báo cùng trạng thái gần nhất của Splitter; mỗi lỗi của Splitter có một mã ngắn để bạn đọc cho mình.
 
