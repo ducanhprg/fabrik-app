@@ -4,6 +4,32 @@
 Test builds (`-nightly`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-nightly`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.1-nightly.1 (test build · bản thử)
+
+- Splitter, By colour: a new Show colour cuts button draws where each colour edge would be cut, with thick outlined lines; edges that cannot be cut are drawn in red with the reason.
+  Splitter, Theo màu: nút Hiện vết cắt theo màu mới vẽ chỗ mỗi biên màu sẽ bị cắt bằng nét dày có viền; biên không cắt được vẽ màu đỏ kèm lý do.
+- Splitter, Draw: a loop that cannot part the model no longer leaves a spinner running that cannot be stopped; the warning stays in the notes with its Cut out as a patch button.
+  Splitter, Vẽ: vòng cắt không tách được mẫu không còn để lại vòng xoay chạy mãi không dừng được; cảnh báo nằm trong thông báo cùng nút Cắt thành miếng vá.
+- Splitter, Cut: a check after every cut says whether each part is a closed solid, whether the parts hold the volume of the model, and how close the parts come to each other (the cut gap), and warns when something is wrong. On a model of a million triangles it runs after the result is on screen.
+  Splitter, Cắt: sau mỗi lần cắt có bước kiểm tra xem từng phần có kín không, tổng thể tích các phần có đủ không và các phần cách nhau bao nhiêu (khe cắt), và cảnh báo khi có gì không ổn. Với mẫu cả triệu tam giác, bước này chạy sau khi kết quả đã hiện.
+- Splitter, Loop: a ring that leaves a thin lid, cap or brim (under about 0.6 mm) is no longer refused as "does not separate".
+  Splitter, Vòng: vòng cắt để lại nắp, chóp hoặc vành mỏng (dưới khoảng 0,6 mm) không còn bị từ chối với thông báo "không tách được".
+- Reports: the report now says which part went wrong (the tool in use is chosen for you), takes pictures pasted with Ctrl+V, and carries Splitter's last messages and state; every Splitter error ends with a short code you can quote.
+  Báo lỗi: báo lỗi giờ cho chọn chức năng bị lỗi (chọn sẵn công cụ đang dùng), nhận ảnh dán bằng Ctrl+V, và kèm các thông báo cùng trạng thái gần nhất của Splitter; mỗi lỗi của Splitter có một mã ngắn để bạn đọc cho mình.
+
+## 1.4.1
+
+- Splitter, By colour: a new Show colour cuts button draws where each colour edge would be cut, with thick outlined lines; edges that cannot be cut are drawn in red with the reason.
+  Splitter, Theo màu: nút Hiện vết cắt theo màu mới vẽ chỗ mỗi biên màu sẽ bị cắt bằng nét dày có viền; biên không cắt được vẽ màu đỏ kèm lý do.
+- Splitter, Draw: a loop that cannot part the model no longer leaves a spinner running that cannot be stopped; the warning stays in the notes with its Cut out as a patch button.
+  Splitter, Vẽ: vòng cắt không tách được mẫu không còn để lại vòng xoay chạy mãi không dừng được; cảnh báo nằm trong thông báo cùng nút Cắt thành miếng vá.
+- Splitter, Cut: a check after every cut says whether each part is a closed solid, whether the parts hold the volume of the model, and how close the parts come to each other (the cut gap), and warns when something is wrong. On a model of a million triangles it runs after the result is on screen.
+  Splitter, Cắt: sau mỗi lần cắt có bước kiểm tra xem từng phần có kín không, tổng thể tích các phần có đủ không và các phần cách nhau bao nhiêu (khe cắt), và cảnh báo khi có gì không ổn. Với mẫu cả triệu tam giác, bước này chạy sau khi kết quả đã hiện.
+- Splitter, Loop: a ring that leaves a thin lid, cap or brim (under about 0.6 mm) is no longer refused as "does not separate".
+  Splitter, Vòng: vòng cắt để lại nắp, chóp hoặc vành mỏng (dưới khoảng 0,6 mm) không còn bị từ chối với thông báo "không tách được".
+- Reports: the report now says which part went wrong (the tool in use is chosen for you), takes pictures pasted with Ctrl+V, and carries Splitter's last messages and state; every Splitter error ends with a short code you can quote.
+  Báo lỗi: báo lỗi giờ cho chọn chức năng bị lỗi (chọn sẵn công cụ đang dùng), nhận ảnh dán bằng Ctrl+V, và kèm các thông báo cùng trạng thái gần nhất của Splitter; mỗi lỗi của Splitter có một mã ngắn để bạn đọc cho mình.
+
 ## 1.4.0
 
 - Splitter, Pins: the pin goes where you click, and a placed pin can be moved, made bigger or smaller, and given an exact radius and reach in mm; a magnet can be any size.
