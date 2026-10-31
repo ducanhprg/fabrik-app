@@ -4,6 +4,21 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.5
+
+- Splitter: click a point, ring, drawn line, surface or curve and press Delete to remove it. Undo brings back everything except a curve.
+  Splitter: bấm vào một điểm, vòng, đường đã vẽ, mặt cắt hoặc đường cong rồi nhấn Delete để xoá. Hoàn tác lấy lại được mọi thứ, trừ đường cong.
+- Splitter, Plane: the line round the model shows points. Drag one to shape the cut by hand: the surface becomes rings in Loop. One Undo puts the surface back.
+  Splitter, Mặt phẳng: đường quanh mẫu hiện các điểm. Kéo một điểm để tự chỉnh vết cắt: mặt cắt thành các vòng trong Vòng. Hoàn tác một lần để lấy lại mặt cắt.
+- Splitter, Plane: click a surface in the view to select it, and choose a pin for each surface.
+  Splitter, Mặt phẳng: bấm vào một mặt trong khung nhìn để chọn, và chọn chốt cho từng mặt.
+- Splitter, Loop: Auto loop rings show their points, and drawn lines are listed so you can pick one.
+  Splitter, Vòng: vòng tự động hiện các điểm, và các đường đã vẽ có trong danh sách để chọn.
+- Splitter, Loop: Place points shows a clear line to the cursor and how the ring will close; on the first point it turns green.
+  Splitter, Vòng: Đặt điểm hiện đường rõ tới con trỏ và cách vòng sẽ khép lại; tới điểm đầu tiên thì đường chuyển sang màu xanh.
+- Splitter: Explode reaches the chosen distance on a compact model, and Spread the parts goes to 200 mm.
+  Splitter: Tách rời đạt đúng khoảng cách đã chọn trên mẫu nhỏ gọn, và thanh Dãn các phần ra lên tới 200 mm.
+
 ## 1.4.4
 
 - Splitter, Loop: a ring that follows a collar or a strap now cuts right through instead of being refused as "does not part the model".
