@@ -4,6 +4,11 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.4
+
+- Splitter, Loop: a ring that follows a collar or a strap now cuts right through instead of being refused as "does not part the model".
+  Splitter, Vòng: vòng chạy theo cổ áo hoặc dây áo giờ cắt đứt hẳn, không còn bị từ chối với thông báo "không tách được mẫu".
+
 ## 1.4.3
 
 - Fabrik shows its version in the window title and the top bar, and a report carries it in its file name, so you can always tell which version you are on.
