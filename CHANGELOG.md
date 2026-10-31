@@ -4,6 +4,15 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.3
+
+- Fabrik shows its version in the window title and the top bar, and a report carries it in its file name, so you can always tell which version you are on.
+  Fabrik hiện số phiên bản trên thanh tiêu đề và thanh trên cùng, và báo lỗi ghi số phiên bản trong tên tệp, nên bạn luôn biết mình đang dùng bản nào.
+- Splitter, Cut: a loading window covers the app as soon as you press Cut, so a big model no longer looks frozen.
+  Splitter, Cắt: cửa sổ chờ phủ lên ứng dụng ngay khi bấm Cắt, nên mẫu lớn không còn trông như bị treo.
+- Splitter, Cut: when a cut cannot part the model, the loading window says so at once, while it looks for where the model is still joined. Press Stop if you don't need the red line: nothing has been cut.
+  Splitter, Cắt: khi vết cắt không tách được mẫu, cửa sổ chờ báo ngay, trong lúc tìm chỗ còn dính. Bấm Dừng nếu không cần xem đường đỏ: chưa có gì bị cắt.
+
 ## 1.4.2
 
 - Splitter, Cut: pressing Cut on a big model no longer freezes the app. The check before the cut runs in the background, and Stop ends it.
