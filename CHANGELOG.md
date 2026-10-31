@@ -4,8 +4,31 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.4.2
+
+- Splitter, Cut: pressing Cut on a big model no longer freezes the app. The check before the cut runs in the background, and Stop ends it.
+  Splitter, Cắt: bấm Cắt với mẫu lớn không còn làm treo ứng dụng. Bước kiểm tra trước khi cắt chạy ngầm, và nút Dừng kết thúc được nó.
+- Splitter: the loading card shows how far a cut is, as a percentage beside the seconds; work that cannot be measured shows the seconds.
+  Splitter: thẻ chờ cho biết vết cắt đã xong bao nhiêu, bằng phần trăm cạnh số giây; việc không đo được thì hiện số giây.
+- Splitter: Undo and Redo go back exactly one step in Loop, Plane, Shape and Curve, and bring back the tool you had selected. Deleting a plane and moving a slider are steps too.
+  Splitter: Hoàn tác và Làm lại lùi đúng một bước trong Vòng, Mặt phẳng, Hình và Cắt cong, và trả lại công cụ bạn đang chọn. Xóa mặt phẳng và kéo thanh trượt cũng là một bước.
+- Splitter, Loop: Preview split shows the parts apart, each ring has its own pin, and Undo takes back Carry on before the cut.
+  Splitter, Vòng: Xem trước khi chia hiện các phần tách rời, mỗi vòng có chốt riêng, và Hoàn tác lấy lại Cắt tiếp trước khi lấy lại vết cắt.
+- Splitter, Loop: click a ring or its button to edit it, in any order. Rings are numbered, the one being edited stands out, and the ring buttons hold their text in Vietnamese.
+  Splitter, Vòng: bấm vào một vòng hoặc nút của nó để sửa, theo thứ tự nào cũng được. Các vòng được đánh số, vòng đang sửa nổi bật, và chữ tiếng Việt nằm gọn trong nút vòng.
+- Splitter, Loop: Ctrl+drag shapes a ring at one spot, Ctrl+click adds one point, and Add points says what to do when a ring is full.
+  Splitter, Vòng: Ctrl+kéo chỉnh vòng tại một chỗ, Ctrl+bấm thêm một điểm, và Thêm điểm cho biết phải làm gì khi vòng đã đầy.
+- Splitter, Loop: when rings do not part the model, the red line shows where it is still joined, looked for away from the cut.
+  Splitter, Vòng: khi các vòng không tách được mẫu, đường đỏ chỉ chỗ còn dính, được tìm ở xa vết cắt.
+- Splitter, Base: Flatten base and Extend base work inside the app, with nothing else to start. A failed run leaves the part as it was, and a finished one is one Undo step.
+  Splitter, Đế: Làm phẳng đế và Kéo dài đế chạy ngay trong ứng dụng, không cần khởi động gì thêm. Lần chạy lỗi giữ nguyên phần như cũ, lần chạy xong là một bước Hoàn tác.
+- Splitter: Inspect & repair, Shapes & Boolean, Sculpt, Moulds and Paint image open from the Print rail.
+  Splitter: Kiểm tra & sửa, Hình khối & Boolean, Điêu khắc, Khuôn và Tô ảnh mở từ thanh In.
+
 ## 1.4.1-beta.1 (test build · bản thử)
 
+- Splitter, Base: Flatten base and Extend base now work inside the app, with nothing else to start. A failed run leaves the part as it was, and a finished one is one Undo step.
+  Splitter, Đế: Làm phẳng đế và Kéo dài đế giờ chạy ngay trong ứng dụng, không cần khởi động gì thêm. Lần chạy lỗi giữ nguyên phần như cũ, lần chạy xong là một bước Hoàn tác.
 - Splitter, By colour: a new Show colour cuts button draws where each colour edge would be cut, with thick outlined lines; edges that cannot be cut are drawn in red with the reason.
   Splitter, Theo màu: nút Hiện vết cắt theo màu mới vẽ chỗ mỗi biên màu sẽ bị cắt bằng nét dày có viền; biên không cắt được vẽ màu đỏ kèm lý do.
 - Splitter, Colours: a new Snap colour edges to grooves button moves each colour edge you drew into the nearest groove or crease of the surface, so colours change where the model does.
