@@ -4,6 +4,15 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.8
+
+- Splitter: a Loop that does not cut now says what is wrong and marks where on the model, instead of a general message.
+  Splitter: vòng cắt không cắt được giờ cho biết lỗi cụ thể và đánh dấu vị trí trên mô hình, thay vì thông báo chung chung.
+- Splitter: the search for where a cut is still joined now finishes on big models.
+  Splitter: việc tìm chỗ vết cắt còn dính giờ hoàn tất được trên mô hình lớn.
+- The update window and the report window now follow Fabrik's look, in day and night, on every page.
+  Cửa sổ cập nhật và cửa sổ báo lỗi giờ theo giao diện của Fabrik, cả ban ngày lẫn ban đêm, trên mọi trang.
+
 ## 1.5.7
 
 - Splitter: delete the selected parts with Delete or Ctrl D, and use Ctrl C, Ctrl X and Ctrl V on them. A pasted part lands beside the original, and Ctrl Z undoes any of these.
