@@ -4,6 +4,13 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.5
+
+- The Fabrik label in the top bar now opens a menu: Check for update, and About.
+  Nhãn Fabrik trên thanh trên cùng giờ mở một menu: Kiểm tra cập nhật và Giới thiệu.
+- Spotter on a phone or another computer looks right again: its buttons and fields had lost their style.
+  Spotter trên điện thoại hoặc máy khác đã hiển thị đúng trở lại: các nút và ô nhập từng bị mất định dạng.
+
 ## 1.5.4
 
 - Fabrik now keeps a log file a day for each tool, in the data\logs folder next to fabrik.exe, and clears old ones by itself. If the report flag ever fails, send us that folder.
