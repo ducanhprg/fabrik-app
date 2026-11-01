@@ -4,7 +4,7 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
-## 1.6.0
+## 1.5.3
 
 - Spotter now has the same look and controls as the other apps, in day and night.
   Spotter giờ có cùng giao diện và nút điều khiển với các ứng dụng khác, cả ban ngày lẫn ban đêm.
