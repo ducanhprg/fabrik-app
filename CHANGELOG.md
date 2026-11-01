@@ -4,6 +4,19 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.6.0
+
+- Spotter now has the same look and controls as the other apps, in day and night.
+  Spotter giờ có cùng giao diện và nút điều khiển với các ứng dụng khác, cả ban ngày lẫn ban đêm.
+- Splitter: Transform and the Objects Manager start folded, so the 3D view has more room. Press a header to open one and it stays open. Notifications stays open.
+  Splitter: Biến đổi và Quản lý vật mặc định được thu gọn để khung 3D rộng hơn. Bấm tiêu đề để mở và nó sẽ giữ nguyên. Thông báo vẫn luôn mở.
+- Splitter: a folded Objects Manager now folds completely.
+  Splitter: Quản lý vật khi thu gọn giờ thu gọn hoàn toàn.
+- Splitter: day mode no longer has leftover night colours in selections, scrollbars and buttons.
+  Splitter: chế độ ban ngày không còn sót màu ban đêm ở vùng chọn, thanh cuộn và nút.
+- The language screen at first launch now follows Fabrik's look and your day or night setting.
+  Màn hình chọn ngôn ngữ lúc mở lần đầu giờ theo giao diện của Fabrik và chế độ ngày hoặc đêm của bạn.
+
 ## 1.5.2
 
 - When a file does not load, the message now shows what went wrong. If buttons stop answering or cuts fail, press Copy details on the card and send it to us.
