@@ -4,6 +4,11 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.7
+
+- Splitter: delete the selected parts with Delete or Ctrl D, and use Ctrl C, Ctrl X and Ctrl V on them. A pasted part lands beside the original, and Ctrl Z undoes any of these.
+  Splitter: xoá các phần đã chọn bằng Delete hoặc Ctrl D, và dùng Ctrl C, Ctrl X, Ctrl V với chúng. Phần được dán sẽ nằm cạnh bản gốc, và Ctrl Z hoàn tác được mọi thao tác này.
+
 ## 1.5.6
 
 - Splitter: big 3MF projects now open, even ones too large to load before, and much faster and with less memory.
