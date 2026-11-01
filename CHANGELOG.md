@@ -4,6 +4,27 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.0
+
+- Splitter, Line: a new Line tool replaces Plane. Draw a line, or press X, Y, Z or View, for a surface you can bend through the model to follow a seam, with rows, columns, points and a green line showing where the cut will run.
+  Splitter, Đường: công cụ Đường mới thay cho Mặt phẳng. Vẽ một đường, hoặc bấm X, Y, Z hay Xem, để có một mặt uốn được xuyên qua mẫu theo đường nối, với hàng, cột, điểm và đường xanh chỉ chỗ sẽ cắt.
+- Splitter, Line: a cell is split by the green line. Click a section, Shift click to add more, and Delete removes only that section. Where the surface stops inside the model, the open line is left out of the cut.
+  Splitter, Đường: đường xanh chia ô thành các phần. Bấm một phần, Shift bấm để chọn thêm, và Delete chỉ xoá phần đó. Chỗ mặt dừng bên trong mẫu thì đường hở không được tính vào vết cắt.
+- Splitter, Loop: push a ring's face into the part to make a cup and plug. Draw more pushes on its floor, and tilt, move or resize the floor.
+  Splitter, Vòng: đẩy mặt của vòng vào trong phần để tạo hốc và chốt cắm. Vẽ thêm phần đẩy trên đáy, và nghiêng, di chuyển hoặc đổi cỡ đáy.
+- Splitter, Loop: Circle drags a ring out on the surface, and a planned pin can be moved on the cut face before cutting.
+  Splitter, Vòng: Hình tròn kéo một vòng ra trên bề mặt, và có thể dời chốt dự kiến trên mặt cắt trước khi cắt.
+- Splitter: new arrows and handles on parts and cut tools. M moves, E extrudes a face, R rotates, S scales. Scale corners resize evenly, and you can type exact numbers.
+  Splitter: mũi tên và tay cầm mới trên các phần và công cụ cắt. M di chuyển, E đùn mặt, R xoay, S đổi tỉ lệ. Góc của Tỉ lệ đổi cỡ đều, và có thể gõ số chính xác.
+- Splitter: each cut tool lists its own keys in its panel, and the guiding messages match today's tools.
+  Splitter: mỗi công cụ cắt liệt kê phím của nó trong bảng, và các lời hướng dẫn khớp với công cụ hiện tại.
+- Splitter, Mask: the brush paints from every cut tool, and Hide the rest works with them.
+  Splitter, Mặt nạ: cọ tô được từ mọi công cụ cắt, và Ẩn phần còn lại dùng được cùng chúng.
+- Splitter: closing Fabrik with unsaved work offers to save it first.
+  Splitter: khi đóng Fabrik mà còn việc chưa lưu, Fabrik sẽ hỏi lưu trước.
+- Splitter: the Curve tool is gone: Line and Loop do its job.
+  Splitter: công cụ Đường cong đã bỏ: Đường và Vòng làm được việc của nó.
+
 ## 1.4.5
 
 - Splitter: click a point, ring, drawn line, surface or curve and press Delete to remove it. Undo brings back everything except a curve.
