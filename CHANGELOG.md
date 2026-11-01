@@ -4,6 +4,31 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.1
+
+- Fabrik: when an open window loses Fabrik behind it (two windows open and the first one closed), it now carries on by itself, and buttons that stopped answering work again.
+  Fabrik: khi cửa sổ đang mở mất kết nối với Fabrik (mở hai cửa sổ rồi đóng cửa sổ đầu), giờ nó tự chạy tiếp, và các nút không còn phản hồi sẽ hoạt động lại.
+- Splitter: if the cutting engine cannot load, the card says so instead of blaming the model, and Try again works without restarting Fabrik.
+  Splitter: nếu không tải được bộ cắt, thông báo nói đúng lỗi thay vì đổ cho mẫu, và Thử lại hoạt động mà không cần mở lại Fabrik.
+- The report flag says what is wrong when it cannot open, instead of doing nothing.
+  Cờ báo lỗi cho biết vấn đề khi không mở được, thay vì không phản hồi.
+- Splitter: the side panel opens and closes with its arrow, the tab beside the rail, or Alt+B, and stays as you left it.
+  Splitter: bảng bên đóng mở bằng mũi tên, thẻ cạnh thanh công cụ hoặc Alt+B, và giữ nguyên như bạn để.
+- Splitter: the Next tip is smaller, and × folds it to a small chip that stays folded. Press the chip to see it again.
+  Splitter: gợi ý Tiếp theo nhỏ hơn, và nút × thu nó thành một nhãn nhỏ và giữ nguyên. Bấm nhãn để xem lại.
+- Splitter: a refused cut no longer waits long to find where the model is still joined.
+  Splitter: vết cắt bị từ chối không còn phải chờ lâu để tìm chỗ mẫu còn dính.
+- Splitter, Line: what is left out of a cut no longer leaves a thin film joining the parts, and a cut that cannot part the model says why.
+  Splitter, Đường: phần bỏ khỏi vết cắt không còn để lại lớp màng mỏng nối các phần, và vết cắt không tách được mẫu sẽ nói rõ lý do.
+- Splitter: files opened together keep their places relative to each other.
+  Splitter: các tệp mở cùng lúc giữ nguyên vị trí tương đối với nhau.
+- Splitter, Hollow: the pins from a cut stay solid, and drain holes go round them.
+  Splitter, Làm rỗng: chốt từ vết cắt vẫn đặc, và lỗ thoát đi vòng qua chúng.
+- Splitter, Paint: Push in Loop turns the paint edge into rings. A push that runs out of the model says so.
+  Splitter, Tô vùng: Đẩy trong Vòng biến viền tô thành các vòng. Phần đẩy chạy ra ngoài mẫu sẽ được báo rõ.
+- Splitter: more text in Vietnamese, and the right panel no longer cuts off its last line.
+  Splitter: thêm nhiều chữ tiếng Việt, và bảng bên phải không còn bị cắt mất dòng cuối.
+
 ## 1.5.0
 
 - Splitter, Line: a new Line tool replaces Plane. Draw a line, or press X, Y, Z or View, for a surface you can bend through the model to follow a seam, with rows, columns, points and a green line showing where the cut will run.
