@@ -4,6 +4,11 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.2
+
+- When a file does not load, the message now shows what went wrong. If buttons stop answering or cuts fail, press Copy details on the card and send it to us.
+  Khi một tệp không tải được, thông báo giờ cho biết lỗi cụ thể. Nếu các nút không phản hồi hoặc không cắt được, hãy bấm Sao chép chi tiết trên thẻ và gửi cho chúng tôi.
+
 ## 1.5.1
 
 - Fabrik: when an open window loses Fabrik behind it (two windows open and the first one closed), it now carries on by itself, and buttons that stopped answering work again.
