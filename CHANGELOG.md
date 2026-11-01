@@ -4,6 +4,19 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.11
+
+- Splitter: Loop and Line now cut together, so a ring and a surface can part a model that neither parts alone, and one Cuts list manages them, tagged by tool.
+  Splitter: Vòng và Đường giờ cắt cùng lúc, nên một vòng và một mặt có thể tách mẫu mà riêng từng cái không tách được, và một danh sách Vết cắt quản lý tất cả, có ghi công cụ.
+- Splitter: what you draw in one cut tool stays in view when you change tools; click it to go back to it.
+  Splitter: nét vẽ ở một công cụ cắt vẫn hiện khi đổi công cụ; bấm vào để quay lại.
+- Splitter: parts move as in a slicer: drag one, or press M or R. Object and Transform are gone; Drop, Centre and Reset are in the Objects Manager, and a moved part has Put it back when a cut needs it.
+  Splitter: di chuyển phần như trong slicer: kéo, hoặc bấm M hay R. Không còn Vật và Biến đổi; Hạ xuống, Giữa và Đặt lại nằm trong Quản lý vật, và phần đã dời có nút Đặt lại chỗ cũ khi cần cắt.
+- Splitter: red marks on a refused cut can be clicked and deleted one by one, or all at once, and Undo clears them.
+  Splitter: dấu đỏ của vết cắt bị từ chối có thể bấm chọn và xoá từng dấu hoặc xoá tất cả, và Hoàn tác sẽ xoá chúng.
+- Maker, Splitter and Bracer: a new Help card and switch, and green marks on what to press next.
+  Maker, Splitter và Bracer: thẻ và công tắc Hỗ trợ mới, cùng dấu xanh lá ở nút cần bấm tiếp theo.
+
 ## 1.5.10
 
 - Splitter: a refused Loop now shows clean red rings on what still holds the model, one for each place, and one press adds them to the cut.
