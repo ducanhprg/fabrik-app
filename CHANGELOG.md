@@ -4,6 +4,17 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.9
+
+- Report: the picture now shows only Fabrik's own window, never a notification or another app lying over it.
+  Báo lỗi: ảnh chụp giờ chỉ có cửa sổ của Fabrik, không bao giờ có thông báo hay ứng dụng khác nằm đè lên.
+- Spotter's windows and every question Fabrik asks now share one look, with the close button in the same corner, in day and night.
+  Các cửa sổ của Spotter và mọi câu hỏi của Fabrik giờ dùng chung một giao diện, nút đóng ở cùng một góc, cả ban ngày lẫn ban đêm.
+- Splitter, Loop: the smoothing tools stay on every ring and its face, and Flatten is always there on a ring.
+  Splitter, Vòng: các công cụ làm mượt luôn có trên mọi vòng và mặt của nó, và nút Làm phẳng luôn có trên vòng.
+- Splitter, Line: an un-closed section can be deleted by itself, keeping the rest of the cut.
+  Splitter, Đường: có thể xoá riêng một đoạn chưa khép kín mà vẫn giữ phần còn lại của vết cắt.
+
 ## 1.5.8
 
 - Splitter: a Loop that does not cut now says what is wrong and marks where on the model, instead of a general message.
