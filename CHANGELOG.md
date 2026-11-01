@@ -4,6 +4,15 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.10
+
+- Splitter: a refused Loop now shows clean red rings on what still holds the model, one for each place, and one press adds them to the cut.
+  Splitter: vòng cắt bị từ chối giờ hiện các vòng đỏ gọn gàng ở nơi mẫu còn dính, mỗi chỗ một vòng, và một lần bấm sẽ thêm chúng vào vết cắt.
+- Splitter: a model opens straight in the Cut tools, without the question panel, and Cut sits above Auto split.
+  Splitter: mô hình mở thẳng vào công cụ Cắt, không còn bảng hỏi, và Cắt nằm trên Tự chia.
+- Splitter: a reduced model keeps its name.
+  Splitter: mô hình đã giảm vẫn giữ nguyên tên.
+
 ## 1.5.9
 
 - Report: the picture now shows only Fabrik's own window, never a notification or another app lying over it.
