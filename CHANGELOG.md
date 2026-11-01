@@ -4,6 +4,13 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.4
+
+- Fabrik now keeps a log file a day for each tool, in the data\logs folder next to fabrik.exe, and clears old ones by itself. If the report flag ever fails, send us that folder.
+  Fabrik giờ giữ mỗi công cụ một tệp nhật ký mỗi ngày, trong thư mục data\logs cạnh fabrik.exe, và tự xoá tệp cũ. Nếu cờ báo lỗi không hoạt động, hãy gửi thư mục đó cho chúng tôi.
+- Reports now include those logs and counts of which panels, buttons and keys are used, collected only to improve Fabrik and not to collect personal information. They stay on your computer unless you send a report; About Fabrik explains what is kept.
+  Báo lỗi giờ kèm các nhật ký đó và số đếm bảng, nút, phím được dùng, chỉ để cải thiện Fabrik, không nhằm thu thập thông tin cá nhân. Chúng nằm trên máy bạn trừ khi bạn gửi báo lỗi; mục Giới thiệu Fabrik có giải thích những gì được giữ.
+
 ## 1.5.3
 
 - Spotter now has the same look and controls as the other apps, in day and night.
