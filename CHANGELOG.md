@@ -4,6 +4,21 @@
 Test builds (`-beta`) reach only a Fabrik set to get test versions; the same changes then come out for everyone.  
 Bản thử (`-beta`) chỉ đến Fabrik đã bật nhận bản thử; sau đó các thay đổi này ra bản chính thức cho mọi người.
 
+## 1.5.6
+
+- Splitter: big 3MF projects now open, even ones too large to load before, and much faster and with less memory.
+  Splitter: các dự án 3MF lớn giờ mở được, kể cả những tệp trước đây quá lớn không tải nổi, nhanh hơn nhiều và tốn ít bộ nhớ hơn.
+- Splitter: slicer-only parts such as modifiers are left out of a 3MF import, and a project with very many parts keeps each object as its own part.
+  Splitter: các phần chỉ dùng trong slicer như phần điều chỉnh được bỏ qua khi nhập 3MF, và dự án có rất nhiều phần vẫn giữ mỗi vật là một phần riêng.
+- Splitter: a sliced print file or a damaged 3MF now says what is wrong and what to do.
+  Splitter: tệp in đã cắt lớp hoặc tệp 3MF bị hỏng giờ cho biết vấn đề và cách xử lý.
+- Splitter: the check before cutting is faster and no longer stops on very large models.
+  Splitter: bước kiểm tra trước khi cắt nhanh hơn và không còn dừng lại với mô hình rất lớn.
+- Bracer and Maker: mirrored parts in a 3MF keep their outside out.
+  Bracer và Maker: các phần được lật gương trong 3MF giữ đúng mặt ngoài.
+- Splitter: each import writes how it went to the log, without the model, so a failed file can be fixed even if you cannot send it.
+  Splitter: mỗi lần nhập đều ghi kết quả vào nhật ký, không kèm mô hình, để vẫn sửa được lỗi dù bạn không thể gửi tệp.
+
 ## 1.5.5
 
 - The Fabrik label in the top bar now opens a menu: Check for update, and About.
